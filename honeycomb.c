@@ -1,4 +1,4 @@
-#include "beenode.h"
+#include "honeycomb.h"
 #include <stdlib.h>
 #include <stdint.h>
 #include <string.h>
@@ -25,7 +25,7 @@ void xor64byte( unsigned char *a, unsigned char *b, unsigned char *out ){
 	}
 }
 
-void beenode_hash( const char* input, int len, char* output ){
+void honeycomb_hash( const char* input, int len, char* output ){
     
 	facet_one_context		ctx_one;
 	facet_two_context		ctx_two;
