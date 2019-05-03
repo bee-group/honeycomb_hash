@@ -1,4 +1,4 @@
-beenode_hash (python) v1.0
+honeycomb_hash (python) v1.0
 ===========================
 
 Python module for Beenode's honeycomb hashing.

@@ -1,9 +1,9 @@
 from distutils.core import setup, Extension
 
 
-beenode_hash_module = Extension('beenode_hash',
-                               sources = ['beenodemodule.c',
-                                          'beenode.c',
+honeycomb_hash_module = Extension('honeycomb_hash',
+                               sources = ['honeycombmodule.c',
+                                          'honeycomb.c',
 										  'honeycomb/facet_one.c',
 										  'honeycomb/facet_two.c',
 										  'honeycomb/facet_three.c',
@@ -15,4 +15,4 @@ beenode_hash_module = Extension('beenode_hash',
 setup (name = 'hashs',
        version = '1.0',
        description = 'Binding for Beenode Honeycomb proof of work hashing.',
-       ext_modules = [beenode_hash_module])
+       ext_modules = [honeycomb_hash_module])
